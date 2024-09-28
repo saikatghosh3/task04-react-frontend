@@ -40,7 +40,7 @@ export function AuthLayout({children}) {
                 src={loginImg}
                 alt="Widgets"
                 fluid
-                style={{ maxWidth: "600px" }}
+                style={{ maxWidth: "576px", maxHeight:"420px" }}
               />
             </div>
           </div>

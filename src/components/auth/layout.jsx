@@ -1,5 +1,5 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
-import loginImg from "../../assets/auth-widgets.png";
+import loginImg from "../../assets/auth-widget.png";
 import { GuestGuard } from "./guest-guard";
 import LogoDark from "../icons/logo-dark.svg?react";
 export function AuthLayout({children}) {

@@ -7,7 +7,7 @@ export function MobileNav({ open, onClose }) {
   const { pathname } = useLocation();
   return (
     <Offcanvas
-      className="d-flex d-lg-none flex-column bg-primary text-white mw-280"
+      className="d-flex d-lg-none flex-column bg-dark text-white mw-280"
       show={open}
       onHide={onClose}
       placement="start"

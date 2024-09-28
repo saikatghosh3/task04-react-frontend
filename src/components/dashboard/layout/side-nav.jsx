@@ -7,7 +7,7 @@ export function SideNav() {
 
   return (
     <div
-      className="d-none d-lg-flex flex-column bg-primary text-white fixed-top"
+      className="d-none d-lg-flex flex-column bg-dark text-white fixed-top"
       style={{ width: "280px", height: "100vh" }}
     >
       <Stack gap={3} className="p-3 flex-grow-0">
